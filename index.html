@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="./assets/lib/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+
+<body>
+  <header class="mt-3" id="top-nav">
+    <div class="container">
+      <!-- Top Navigation -->
+      <div class="row top-nav-items">
+        <div class="col-md-2 mobile-nav">
+          <!-- Logo on the left -->
+          <a class="navbar-brand" href="#">
+            <img src="./assets/media/images/logo health.png" alt="Logo" />
+          </a>
+          <div class="mt-2">
+            <ul class="social-icons">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-phone"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+        <!-- Search Button -->
+        <div class="col-md-6 col-sm-12 col-xsm-12 mt-2">
+          <div class="input-group">
+            <input class="form-control rmv-border" type="search" value="search" id="example-search-input" />
+            <span class="input-group-append">
+              <button class="btn ms-n5" type="button">
+                <i class="fa fa-search"></i>
+              </button>
+            </span>
+          </div>
+        </div>
+        <!-- Icons on the right -->
+        <div class="col-md-2 mt-2 mobile-hide">
+          <ul class="social-icons">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-phone"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Main Menu -->
+    <nav class="navbar main-menu navbar-expand-lg" id="bottom-nav">
+      <div class="container-fluid navy">
+        <div class="mobile-nav">
+          <a class="col-md-2 mr-5 mr-4 navbar-brand sticky" href="#">
+            <img src="./assets/media/images/logo health.png" alt="Logo" />
+          </a>
+          <div class="col-md-2 social-icon ml-4 sticky desktop-hide">
+            <ul class="social-icons">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-phone"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars text-dark"></i>
+        </button>
+
+        <div class="col-md-8 collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">ACCUEIL<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                PRODUITS
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item" href="#">PRODUIT 1</a>
+                <a class="dropdown-item" href="#">PRODUIT 2</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                SERVICES
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                <a class="dropdown-item" href="#">SERVICE 1</a>
+                <a class="dropdown-item" href="#">SERVICE 2</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">QUI SOMMES-NOUS ?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">EXPERIENCE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">INFOS/CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-2 social-icon ml-4 sticky mobile-hide">
+          <ul class="social-icons">
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-user"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-phone"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- home section -->
+  <section class="sliding container-fluid">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="text-overly">
+        <h3>
+          <strong> VOTRE </strong> <br />
+          <strong> SOLUTION SANTÉ</strong>
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          <br />nonumy eirmod tempor invidunt ut labore et dolore magna<br />
+          aliquyam erat, sed diam voluptua. At vero eos et accusam et justo<br />
+          duo dolores et ea rebum. Stet
+        </p>
+        <button class="btn caroussel btn-outline-primary">Savoir Plus</button>
+      </div>
+      <ol class="carousel-indicators">
+        <li data-target="#caeouselIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#caeouselIndicators" data-slide-to="1"></li>
+        <li data-target="#caeouselIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/media/images/pharmacist-checking-medicines.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/media/images/pharmacist-checking-medicines.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/media/images/pharmacist-checking-medicines.png" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+  <!-- home section ends -->
+
+  <!-- products section starts -->
+  <div class="container-fluid caroussel-content text-center">
+    <h3 class="font-weight-light mb-5 heading">BEST SELLER ORTHOPÉDIE</h3>
+    <div class="row ">
+      <div id="myCarousel-products" class="carousel slide w-100">
+        <div class="carousel-inner w-100" role="listbox">
+          <div class="carousel-item  carousel-product-item active">
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <div class="images">
+                  <img src="./assets/media/images/produits/1.png" alt="" />
+                  <div class="price">15.50€</div>
+                  <div class="description">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</div>
+                  <div class="content">
+                    <a href="#" class="panier">AJOUTER AU PANIER</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-product-item">
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <div class="images">
+                  <img src="./assets/media/images/produits/2.png" alt="" />
+                  <div class="price">15.50€</div>
+                  <div class="description">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</div>
+                  <div class="content">
+                    <a href="#" class="panier">AJOUTER AU PANIER</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-product-item">
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <div class="images">
+                  <img src="./assets/media/images/produits/3.png" alt="" />
+                  <div class="price">15.50€</div>
+                  <div class="description">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</div>
+                  <div class="content">
+                    <a href="#" class="panier">AJOUTER AU PANIER</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item carousel-product-item">
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <div class="images">
+                  <img src="./assets/media/images/produits/4.png" alt="" />
+                  <div class="price">15.50€</div>
+                  <div class="description">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</div>
+                  <div class="content">
+                    <a href="#" class="panier">AJOUTER AU PANIER</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item carousel-product-item">
+            <div class="col-lg-3 col-md-6">
+              <div class="box">
+                <div class="images">
+                  <img src="./assets/media/images/produits/5.png" alt="" />
+                  <div class="price">15.50€</div>
+                  <div class="description">Lorem ipsum dolor sit amet <br> consectetur adipisicing elit.</div>
+                  <div class="content">
+                    <a href="#" class="panier">AJOUTER AU PANIER</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <a class="carousel-control-prev  w-auto" href="#myCarousel-products" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next  w-auto" href="#myCarousel-products" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    <div class="progress-line-container">
+      <div id="carousel-progress-line" class="progress-line"></div>
+    </div>
+
+  </div>
+  <!-- products section ends -->
+
+  <!-- conseil section -->
+  <div class="container-fluid caroussel-content text-center">
+    <h3 class="font-weight-light mb-5 heading">Nos conseils santé</h3>
+    <div class="row ">
+      <div id="myCarousel" class="carousel slide w-100" data-ride="carousel">
+        <div class="carousel-inner w-100" role="listbox">
+          <div class="carousel-item  carousel-my-item active">
+            <div class="col-lg-4 col-md-6">
+              <img class="img-caroussel" src="./assets/media/images/1.png">
+            </div>
+          </div>
+          <div class="carousel-item carousel-my-item">
+            <div class="col-lg-4 col-md-6">
+              <img class="img-caroussel" src="./assets/media/images/2.png">
+            </div>
+          </div>
+          <div class="carousel-item carousel-my-item">
+            <div class="col-lg-4 col-md-6">
+              <img class="img-caroussel" src="./assets/media/images/3.png">
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev  w-auto" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next  w-auto" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="carousel-indicators1 mt-2">
+        <span class="indicator active"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+      </div>
+
+    </div>
+  </div>
+  <!-- conseil section ends -->
+
+  <!-- contact section  -->
+  <section class="container-fluid contact-section">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <div class="contact-overlay">
+          <h3>
+            <strong> RESTONS EN CONTACT</strong>
+          </h3>
+          <p>
+            Inscrivez-vous à nos communications et bénéficiez<br />
+            de contenus exclusifs, du programme <br />fidélité et d’offres
+            personnalisées.<br />
+            Pas plus d’un email, par<br />
+            semaine.
+          </p>
+          <input type="email" id="email" name="email" placeholder="Votre Address email" required />
+          <button class="btn caroussel btn-outline-primary" id="inscris">
+            JE M'INSCRIS
+          </button>
+
+        </div>
+        <div class="image-contact  mb-4">
+          <img class="image-contact" src="./assets/media/images/Group 3524.png" alt="" />
+        </div>
+      </div>
+      <div class=" col-md-6 col-sm-12 mb-4">
+        <div class="image-contact ">
+          <img class="image-contact" src="./assets/media/images/36588.png" alt="" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- contact section ends -->
+
+  <!-- products section starts -->
+  <section class="container mb-4">
+    <h3 class="heading">NOS PARTENAIRES</h3>
+
+    <div class="row ">
+      <div class="col-lg-3 col-md-6 ">
+        <img src="./assets/media/images/partners/logo.png" alt="" class="border border-light rounded" />
+      </div>
+      <div class="col-lg-3 col-md-6 ">
+        <img src="./assets/media/images/partners/Mask Group 8.png" alt="" class="border border-light rounded" />
+      </div>
+      <div class="col-lg-3 col-md-6 ">
+        <img src="./assets/media/images/partners/logo_anios.png" alt="" class="border border-light rounded" />
+      </div>
+      <div class="col-lg-3 col-md-6 ">
+        <img src="./assets/media/images/partners/Mask Group 9.png" alt="" class="border border-light rounded" />
+      </div>
+    </div>
+    <div class="text-center mb-4 mt-4">
+      <button id="marque" class="btn btn-primary">Voir toutes nos marques</button>
+    </div>
+  </section>
+
+  <!-- menu section ends -->
+
+  <!-- last section -->
+  <div class="container ">
+    <div class="row">
+      <div class="col-12 txt-section">
+        <img src="./assets/media/images/young-woman-pharmacist-pharmacy.png" style="float: right;" class="img-fluid"
+          alt="mobile screen" />
+
+        <h3 class="text-primary font-tertiary">
+          achat de médicaments et de produits de paramédical sur internet
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis
+          risus mi. Ut placerat quam lectus. Curabitur dictum velit non lacus
+          ornare tempor. Nullam quis augue in leo aliquet malesuada sit amet
+          eget eros. Sed laoreet posuere velit sit amet varius. Nulla eget
+          purus non erat fringilla sodales vel a nulla. Cras sit amet tempus
+          risus. Fusce dignissim blandit justo, eget elementum risus tristique
+          a. Nunc fringilla lacus lacus, sit amet accumsan est pulvinar non.
+          Praesent tristique enim lorem. Phasellus a auctor lacus. Proin vitae
+          accumsan nunc.
+        </p>
+        <h3 class="text-primary font-tertiary">Votre paramédical en ligne</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis
+          risus mi. Ut placerat quam lectus. Curabitur dictum velit non lacus
+          ornare tempor. Nullam quis augue in leo aliquet malesuada sit amet
+          eget eros. Sed laoreet posuere velit sit amet varius. Nulla eget
+          purus non erat fringilla sodales vel a nulla. Cras sit amet tempus
+          risus. Fusce dignissim blandit justo, eget elementum risus tristique
+          a. Nunc fringilla lacus lacus, sit amet accumsan est pulvinar non.
+          Praesent tristique enim lorem. Phasellus a auctor lacus. Proin vitae
+          accumsan nunc.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- menu section ends -->
+  <!-- menu section ends -->
+  <section class="avantages container">
+    <h4>LES AVANTAGES</h4>
+    <div class="row">
+
+
+
+      <div class="sym col-md-3 col-sm-6">
+        <img src="./assets/media/images/Parapharmacie Icones-01.png" alt="" />
+        <p class="reassurance-title">Livraison gratuite</p>
+        <p class="reassurance-description">
+          Livraison express gratuite à domicile ou en point relais avec le
+          Pass Livraison
+        </p>
+      </div>
+      <div class="sym col-md-3 col-sm-6">
+        <img src="./assets/media/images/Parapharmacie Icones-02.png" alt="" />
+        <p class="reassurance-title">Retour gratuit</p>
+        <p class="reassurance-description">
+          Retournez et échangez sans frais pendant 30 jours avec le Pass
+          Livraison
+        </p>
+      </div>
+      <div class="sym col-md-3 col-sm-6">
+        <img src="./assets/media/images/Parapharmacie Icones-03.png" alt="" />
+        <p class="reassurance-title">Produits contrôlés</p>
+        <p class="reassurance-description">Vous passez commande auprès de pharmacies françaises</p>
+      </div>
+      <div class="sym col-md-3 col-sm-6">
+        <img src="./assets/media/images/Parapharmacie Icones-04.png" alt="" />
+        <p class="reassurance-title">Achats 100% sécurisés</p>
+        <p class="reassurance-description">
+          Le plus haut niveau de sécurité pour vos achats santé en ligne
+        </p>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="container contact-nous">
+    <div class="row">
+      <div class="img-cont">
+        <img src="./assets/media/images/Group 3523.png" alt="" />
+      </div>
+      <div class="info">
+        <p class="para">POUR PLUS D'INFOMATIONS, CONTACTEZ-NOUS</p>
+        <button id="formulaire">acceder au formulaire de contact</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section -->
+  <footer class="text-left text-lg-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h4 class="text-uppercase mb-3">MEDICALLIANE</h4>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-b">2, rue des Satellites</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">Parc Technologique du Canal</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">31520 RAMONVILLE SAINT-AGNE</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h4 class="text-uppercase mb-3">NOS SERVICES</h4>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-b">Péparation et entretien</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">Collecte de matériel médical</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">Dépôt des DASRI</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">Bien-Etre Académie</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h4 class="text-uppercase mb-3">NOS PRODUCTS</h4>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-b">Maintien à domicile</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">Handicap Enfant</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">Handicap adulte</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">Professionnels de santé</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">Ergonomie au travail</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h4 class="text-uppercase mb-3">FOLLOW</h4>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-b">Facebook</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">Instagram</a>
+            </li>
+            <li>
+              <a href="#!" class="text-b">Twitter</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <div class="symbols">
+      <img src="./assets/media/images/Group 3522.png" alt="" />
+    </div>
+    <div class="text-center">
+      <p>© Mediclub - 2020. Tous droits réservés.</p>
+    </div>
+  </footer>
+  <script src="./assets/lib/jquery/jquery-3.5.1.slim.min.js"></script>
+  <script src="./assets/lib/dist/js/popper.min.js"></script>
+  <script src="./assets/lib/dist/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>
